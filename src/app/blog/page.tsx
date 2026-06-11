@@ -55,7 +55,7 @@ export default function BlogPage() {
     },
     {
       id: '5',
-      title: 'Maximizing Your Rewards: NexaCart Loyalty Program',
+      title: 'Maximizing Your Rewards: Bliss Sihat Loyalty Program',
       excerpt: 'Get more points, unlock exclusive perks, and make every purchase count with our rewards system.',
       author: 'Lisa Anderson',
       date: new Date('2025-11-20'),
@@ -65,7 +65,7 @@ export default function BlogPage() {
     },
     {
       id: '6',
-      title: 'Small Business Success Stories on NexaCart',
+      title: 'Small Business Success Stories on Bliss Sihat',
       excerpt: 'Meet the entrepreneurs who grew their businesses to six figures using our platform.',
       author: 'James White',
       date: new Date('2025-11-18'),
@@ -80,7 +80,7 @@ export default function BlogPage() {
       id: '1',
       name: 'Rachel Thompson',
       role: 'Regular Shopper',
-      quote: "NexaCart's blog has completely changed how I shop online. The tips are practical and the articles are always informative.",
+      quote: "Bliss Sihat's blog has completely changed how I shop online. The tips are practical and the articles are always informative.",
       rating: 5,
     },
     {
@@ -105,7 +105,7 @@ export default function BlogPage() {
       <section className="container-page py-20">
         <MotionReveal className="mb-12">
           <h1 className="text-5xl font-bold tracking-tight md:text-6xl mb-4">
-            NexaCart Blog
+            Bliss Sihat Blog
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl">
             Expert insights, shopping tips, and success stories from our community.

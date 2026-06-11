@@ -8,7 +8,7 @@ import { Star, TrendingUp, Users } from 'lucide-react'
 
 export const metadata = {
   title: 'Sellers & Marketplace',
-  description: 'Discover top sellers and become a seller on NexaCart.',
+  description: 'Discover top sellers and become a seller on Bliss Sihat.',
 }
 
 export default function SellersPage() {
@@ -99,7 +99,7 @@ export default function SellersPage() {
             Sellers & Marketplace
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Discover amazing products from thousands of trusted sellers, or start your own business on NexaCart.
+            Discover amazing products from thousands of trusted sellers, or start your own business on Bliss Sihat.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg">
@@ -118,7 +118,7 @@ export default function SellersPage() {
       {/* Benefits */}
       <section className="container-page py-20">
         <MotionReveal className="mb-12">
-          <h2 className="text-3xl font-bold">Why Sell on NexaCart?</h2>
+          <h2 className="text-3xl font-bold">Why Sell on Bliss Sihat?</h2>
         </MotionReveal>
         <FeatureGrid features={features} />
       </section>
@@ -215,7 +215,7 @@ export default function SellersPage() {
                 Ready to Become a Seller?
               </h2>
               <p className="text-muted-foreground mb-6">
-                Join thousands of successful sellers growing their business on NexaCart. Get instant access to millions of buyers, powerful selling tools, and dedicated support.
+                Join thousands of successful sellers growing their business on Bliss Sihat. Get instant access to millions of buyers, powerful selling tools, and dedicated support.
               </p>
               <ul className="space-y-2 mb-8">
                 <li className="flex items-center gap-3">

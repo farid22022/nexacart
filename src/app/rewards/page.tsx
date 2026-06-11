@@ -72,7 +72,7 @@ export default function RewardsPage() {
         <MotionReveal className="mb-12">
           <Badge className="mb-4">🎁 Loyalty Rewards</Badge>
           <h1 className="text-5xl font-bold tracking-tight md:text-6xl mb-4">
-            Earn & Redeem with NexaCart
+            Earn & Redeem with Bliss Sihat
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl">
             Get rewarded for every purchase. More points, better perks, exclusive benefits.

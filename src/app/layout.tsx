@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "NexaCart Commerce",
-    template: "%s | NexaCart Commerce",
+    default: "Bliss Sihat",
+    template: "%s | Bliss Sihat",
   },
   description:
     "A production-ready e-commerce frontend with customer, vendor, and admin experiences.",

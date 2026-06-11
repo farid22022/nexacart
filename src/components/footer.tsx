@@ -24,7 +24,7 @@ export function Footer() {
     <footer className="border-t bg-card">
       <div className="container-page grid gap-10 py-12 lg:grid-cols-[1.2fr_1fr]">
         <div>
-          <h2 className="text-2xl font-semibold">NexaCart Commerce</h2>
+          <h2 className="text-2xl font-semibold">Bliss Sihat</h2>
           <p className="mt-3 max-w-xl text-sm leading-6 text-muted-foreground">
             A premium e-commerce frontend with storefront, checkout, tracking,
             customer dashboard, vendor tools, and enterprise admin workflows.

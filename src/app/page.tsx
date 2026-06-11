@@ -67,7 +67,7 @@ export default function Home() {
       {/* Enhanced Hero Section */}
       <section className="relative min-h-[750px] overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1800&q=85"
+          src="https://i.ibb.co.com/WNYqNKVf/24b33a9a-3881-43a9-929a-ca16d63bf71a.png"
           alt="Premium e-commerce shopping experience"
           fill
           priority

@@ -6,7 +6,7 @@ import { Zap, Shield, Headphones, Leaf } from 'lucide-react'
 
 export const metadata = {
   title: 'About Us',
-  description: 'Learn about NexaCart, our mission, and our team.',
+  description: 'Learn about Bliss Sihat, our mission, and our team.',
 }
 
 export default function AboutPage() {
@@ -49,8 +49,8 @@ export default function AboutPage() {
       {/* Hero section */}
       <section className="relative min-h-[500px] overflow-hidden py-20">
         <Image
-          src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1800&q=85"
-          alt="About NexaCart"
+          src="https://i.ibb.co.com/WNYqNKVf/24b33a9a-3881-43a9-929a-ca16d63bf71a.png"
+          alt="About Bliss Sihat"
           fill
           className="object-cover"
           priority
@@ -75,8 +75,8 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
               <p className="text-lg text-muted-foreground leading-7">
-                At NexaCart, we believe commerce should be accessible, transparent, and rewarding for everyone. 
-                We're building a platform that empowers sellers to reach global customers and gives buyers the 
+                At Bliss Sihat, we believe commerce should be accessible, transparent, and rewarding for everyone. 
+                We are building a platform that empowers sellers to reach global customers and gives buyers the 
                 confidence to shop with trust.
               </p>
             </div>
@@ -105,7 +105,7 @@ export default function AboutPage() {
 
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=85"
+              src="https://i.ibb.co.com/WNYqNKVf/24b33a9a-3881-43a9-929a-ca16d63bf71a.png"
               alt="Our team"
               fill
               className="object-cover hover-scale"
@@ -120,7 +120,7 @@ export default function AboutPage() {
       {/* Features section */}
       <section className="container-page py-20">
         <MotionReveal className="mb-12 text-center">
-          <h2 className="text-3xl font-bold">Why Choose NexaCart?</h2>
+          <h2 className="text-3xl font-bold">Why Choose Bliss Sihat?</h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Everything you need for a seamless shopping experience
           </p>
@@ -137,10 +137,10 @@ export default function AboutPage() {
           </p>
         </MotionReveal>
 
-        <div className="grid gap-8 md:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-3">
           {[
-            { name: 'Asif-Alamgir', role: 'Director of Strategic Operations & Innovation', image: 'https://i.ibb.co.com/DHR4qngz/Asif-Alamgir.png' },
-            { name: ' Md.Sayem Hossain', role: 'CTO', image: 'https://i.ibb.co.com/4wT1F6hr/Sayem-CEO.png' },
+            { name: 'Asif Alamgir', role: 'Director of Strategic Operations & Innovation', image: 'https://i.ibb.co.com/DHR4qngz/Asif-Alamgir.png' },
+            { name: 'Md. Sayem Hossain', role: 'CEO', image: 'https://i.ibb.co.com/4wT1F6hr/Sayem-CEO.png' },
             { name: 'Most. Mrittika Khatun', role: 'Research & Product Development Manager', image: 'https://i.ibb.co.com/PG68v9M4/Most-Mrittika-Khatun.png' },
           ].map((member, index) => (
             <div
@@ -148,12 +148,13 @@ export default function AboutPage() {
               className="group text-center animate-fade-in-up hover-lift"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="relative h-48 w-full rounded-lg overflow-hidden mb-4">
+              <div className="relative w-full aspect-square rounded-lg overflow-hidden mb-4">
                 <Image
                   src={member.image}
                   alt={member.name}
                   fill
-                  className="object-cover transition-transform group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="object-cover object-top transition-transform group-hover:scale-105"
                 />
               </div>
               <h3 className="font-semibold text-lg">{member.name}</h3>

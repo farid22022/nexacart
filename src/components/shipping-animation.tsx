@@ -139,7 +139,7 @@ function BuildingScene() {
         transition={{ duration: 0.8, delay: 1 }}
       >
         <p className="text-xl font-bold text-slate-800 dark:text-slate-200">
-          NexaCart Warehouse
+          Bliss Sihat Warehouse
         </p>
         <p className="text-sm text-slate-600 dark:text-slate-400">
           Where it all begins

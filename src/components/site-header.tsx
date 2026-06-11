@@ -72,7 +72,7 @@ export function SiteHeader() {
           <span className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
             <ShoppingBag className="size-5" />
           </span>
-          <span className="font-semibold tracking-tight">NexaCart</span>
+          <span className="font-semibold tracking-tight">Bliss Sihat</span>
         </Link>
 
         <nav className="ml-4 hidden items-center gap-1 lg:flex">
