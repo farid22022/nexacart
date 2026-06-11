@@ -139,10 +139,9 @@ export default function AboutPage() {
 
         <div className="grid gap-8 md:grid-cols-4">
           {[
-            { name: 'Alice Chen', role: 'CEO & Founder', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=60' },
-            { name: 'Bob Martinez', role: 'CTO', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=60' },
-            { name: 'Carol Singh', role: 'Chief Designer', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=500&q=60' },
-            { name: 'David Lee', role: 'VP Operations', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=60' },
+            { name: 'Asif-Alamgir', role: 'Director of Strategic Operations & Innovation', image: 'https://i.ibb.co.com/DHR4qngz/Asif-Alamgir.png' },
+            { name: ' Md.Sayem Hossain', role: 'CTO', image: 'https://i.ibb.co.com/4wT1F6hr/Sayem-CEO.png' },
+            { name: 'Most. Mrittika Khatun', role: 'Research & Product Development Manager', image: 'https://i.ibb.co.com/PG68v9M4/Most-Mrittika-Khatun.png' },
           ].map((member, index) => (
             <div
               key={member.name}

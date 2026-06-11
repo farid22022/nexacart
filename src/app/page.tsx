@@ -87,7 +87,7 @@ export default function Home() {
               <span>Summer launch collection</span>
             </Badge>
             <h1 className="animate-fade-in-up text-5xl font-bold tracking-tighter sm:text-6xl lg:text-8xl leading-tight">
-              NexaCart <span className="text-primary">Commerce</span>
+              Bliss Sihat <span className="text-primary">Commerce</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
               Discover millions of products from verified vendors. Enjoy fast delivery, 
@@ -153,7 +153,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <p className="text-sm font-medium text-primary">OUR ADVANTAGES</p>
             <h2 className="text-4xl lg:text-5xl font-bold tracking-tight mt-2">
-              Why Choose NexaCart?
+              Why Choose Bliss Sihat?
             </h2>
           </div>
         </MotionReveal>
