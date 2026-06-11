@@ -49,7 +49,7 @@ export default function AboutPage() {
       {/* Hero section */}
       <section className="relative min-h-[500px] overflow-hidden py-20">
         <Image
-          src="https://i.ibb.co/WNYqNKVf/24b33a9a-3881-43a9-929a-ca16d63bf71a.png"
+          src="/team.png"
           alt="About Bliss Sihat"
           fill
           className="object-cover"
@@ -105,7 +105,7 @@ export default function AboutPage() {
 
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="https://i.ibb.co/WNYqNKVf/24b33a9a-3881-43a9-929a-ca16d63bf71a.png"
+              src="/team.png"
               alt="Our team"
               fill
               className="object-cover hover-scale"
@@ -139,9 +139,9 @@ export default function AboutPage() {
 
         <div className="grid gap-8 md:grid-cols-3">
           {[
-            { name: 'Asif Alamgir', role: 'Director of Strategic Operations & Innovation', image: 'https://i.ibb.co/DHR4qngz/Asif-Alamgir.png' },
-            { name: 'Md. Sayem Hossain', role: 'CEO', image: 'https://i.ibb.co/4wT1F6hr/Sayem-CEO.png' },
-            { name: 'Most. Mrittika Khatun', role: 'Research & Product Development Manager', image: 'https://i.ibb.co/PG68v9M4/Most-Mrittika-Khatun.png' },
+            { name: 'Asif Alamgir', role: 'Director of Strategic Operations & Innovation', image: '/Asif Alamgir.png' },
+            { name: 'Md. Sayem Hossain', role: 'CEO', image: '/Sayem-CEO.png' },
+            { name: 'Most. Mrittika Khatun', role: 'Research & Product Development Manager', image: '/Most. Mrittika Khatun.png' },
           ].map((member, index) => (
             <div
               key={member.name}

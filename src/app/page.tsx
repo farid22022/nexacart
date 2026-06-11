@@ -67,7 +67,7 @@ export default function Home() {
       {/* Enhanced Hero Section */}
       <section className="relative min-h-[750px] overflow-hidden">
         <Image
-          src="https://i.ibb.co/WNYqNKVf/24b33a9a-3881-43a9-929a-ca16d63bf71a.png"
+          src="/team.png"
           alt="Premium e-commerce shopping experience"
           fill
           className="object-cover"
@@ -81,6 +81,13 @@ export default function Home() {
         
         <div className="container-page relative flex min-h-[750px] items-center py-16">
           <MotionReveal className="max-w-2xl">
+            <Image
+              src="/logo.png"
+              alt="Bliss Sihat Logo"
+              width={120}
+              height={120}
+              className="mb-6 drop-shadow-lg"
+            />
             <Badge className="mb-5 animate-pulse gap-2">
               <Sparkles className="size-4" />
               <span>Summer launch collection</span>
