@@ -20,57 +20,75 @@ export default function DealsPage() {
   const deals = [
     {
       id: '1',
-      title: 'Premium Wireless Earbuds',
-      originalPrice: 299,
-      salePrice: 149,
-      discount: 50,
+      title: 'Eclaffia Morning Ritual',
+      originalPrice: 520,
+      salePrice: 420,
+      discount: 19,
       timeLeft: '6h 23m',
-      image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=60',
+      image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=500&q=60',
     },
     {
       id: '2',
-      title: 'Smart Watch Pro',
-      originalPrice: 499,
-      salePrice: 299,
-      discount: 40,
+      title: 'Eclaffia Bold Roast',
+      originalPrice: 560,
+      salePrice: 450,
+      discount: 20,
       timeLeft: '3h 45m',
-      image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=60',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=60',
     },
     {
       id: '3',
-      title: '4K Webcam',
-      originalPrice: 199,
-      salePrice: 89,
-      discount: 55,
+      title: 'Eclaffia Spiced Blend',
+      originalPrice: 580,
+      salePrice: 480,
+      discount: 17,
       timeLeft: '8h 12m',
-      image: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=500&q=60',
+      image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=500&q=60',
     },
     {
       id: '4',
-      title: 'Mechanical Keyboard',
-      originalPrice: 149,
-      salePrice: 79,
-      discount: 47,
+      title: 'Dulacate Signature Bar',
+      originalPrice: 210,
+      salePrice: 160,
+      discount: 24,
       timeLeft: '5h 54m',
-      image: 'https://images.unsplash.com/photo-1587829191301-46e5b0e6f748?auto=format&fit=crop&w=500&q=60',
+      image: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&fit=crop&w=500&q=60',
     },
     {
       id: '5',
-      title: 'USB-C Hub',
-      originalPrice: 79,
-      salePrice: 39,
-      discount: 51,
+      title: 'Dulacate 70% Dark',
+      originalPrice: 220,
+      salePrice: 170,
+      discount: 23,
       timeLeft: '2h 30m',
-      image: 'https://images.unsplash.com/photo-1625948515291-69613efd103f?auto=format&fit=crop&w=500&q=60',
+      image: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?auto=format&fit=crop&w=500&q=60',
     },
     {
       id: '6',
-      title: 'Monitor Arm',
-      originalPrice: 129,
-      salePrice: 69,
-      discount: 46,
+      title: 'Dulacate Date & Nut Crunch',
+      originalPrice: 240,
+      salePrice: 185,
+      discount: 23,
       timeLeft: '7h 15m',
-      image: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=500&q=60',
+      image: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&w=500&q=60',
+    },
+    {
+      id: '7',
+      title: 'Bliss Sihat Wellness Duo',
+      originalPrice: 820,
+      salePrice: 680,
+      discount: 17,
+      timeLeft: '4h 10m',
+      image: 'https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=500&q=60',
+    },
+    {
+      id: '8',
+      title: 'Bliss Sihat Premium Hamper',
+      originalPrice: 1550,
+      salePrice: 1250,
+      discount: 19,
+      timeLeft: '9h 00m',
+      image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=60',
     },
   ]
 
@@ -129,10 +147,10 @@ export default function DealsPage() {
                 {/* Price */}
                 <div className="mt-3 flex items-end gap-2">
                   <span className="text-2xl font-bold text-primary">
-                    ${deal.salePrice}
+                    ৳{deal.salePrice}
                   </span>
                   <span className="text-sm text-muted-foreground line-through">
-                    ${deal.originalPrice}
+                    ৳{deal.originalPrice}
                   </span>
                 </div>
 
