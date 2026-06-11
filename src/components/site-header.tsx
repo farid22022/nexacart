@@ -51,7 +51,7 @@ export function SiteHeader() {
             </Button>
           </SheetTrigger>
           <SheetContent side="left" className="w-80">
-            <SheetTitle className="text-left">NexaCart</SheetTitle>
+            <SheetTitle className="text-left">Bliss Sihat</SheetTitle>
             <nav className="mt-6 grid gap-2">
               {navLinks.map((item) => (
                 <Button key={item.href} asChild variant="ghost" className="justify-start">

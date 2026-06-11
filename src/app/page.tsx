@@ -87,7 +87,7 @@ export default function Home() {
               <span>Summer launch collection</span>
             </Badge>
             <h1 className="animate-fade-in-up text-5xl font-bold tracking-tighter sm:text-6xl lg:text-8xl leading-tight">
-              Bliss Sihat <span className="text-primary">Commerce</span>
+              Bliss Sihat <span className="text-primary"></span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
               Discover millions of products from verified vendors. Enjoy fast delivery, 
