@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
   BarChart3,
@@ -68,11 +69,15 @@ export function SiteHeader() {
           </SheetContent>
         </Sheet>
 
-        <Link href="/" className="flex items-center gap-2">
-          <span className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <ShoppingBag className="size-5" />
-          </span>
-          <span className="font-semibold tracking-tight">Bliss Sihat</span>
+        <Link href="/" className="flex items-center gap-2 shrink-0">
+          <Image
+            src="/logo.png"
+            alt="Bliss Sihat Logo"
+            width={36}
+            height={36}
+            className="rounded-lg"
+          />
+          <span className="font-semibold tracking-tight whitespace-nowrap">Bliss Sihat</span>
         </Link>
 
         <nav className="ml-4 hidden items-center gap-1 lg:flex">
