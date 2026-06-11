@@ -10,14 +10,14 @@ import {
   Truck,
   Award,
   Zap,
-  Users,
+
   TrendingUp,
   Heart,
   Globe,
   Flame,
 } from "lucide-react";
 
-import { ShippingAnimation } from "@/components/shipping-animation";
+
 import { MotionReveal } from "@/components/motion-reveal";
 import { ProductCard } from "@/components/product-card";
 import { Badge } from "@/components/ui/badge";
@@ -67,12 +67,11 @@ export default function Home() {
       {/* Enhanced Hero Section */}
       <section className="relative min-h-[750px] overflow-hidden">
         <Image
-          src="https://i.ibb.co.com/WNYqNKVf/24b33a9a-3881-43a9-929a-ca16d63bf71a.png"
+          src="https://i.ibb.co/WNYqNKVf/24b33a9a-3881-43a9-929a-ca16d63bf71a.png"
           alt="Premium e-commerce shopping experience"
           fill
-          priority
           className="object-cover"
-          sizes="100vw"
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/86 to-background/20" />
         
